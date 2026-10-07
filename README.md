@@ -65,12 +65,15 @@ Caso o Pages ainda não esteja habilitado:
 - [x] QA estático;
 - [ ] confirmar CORS/retorno do CheapShark no ambiente publicado;
 - [ ] GitHub Pages confirmado;
-- [ ] Browser E2E;
+- [x] Browser E2E;
 - [ ] validar busca por títulos reais;
 - [ ] validar links de oferta;
 - [ ] revisar preços-alvo com atualização real;
 - [ ] revisar desktop/mobile publicado;
 - [ ] corrigir P0/P1 encontrados.
+
+
+> Browser E2E automatizado no GitHub Actions foi adicionado em 07/10/2026. O que resta neste gate é validação publicada/real e revisão dos casos específicos listados abaixo.
 
 ## V2 — somente após validação
 
