@@ -1,4 +1,20 @@
-# GameRadar
+# GameRadar — Encontre promoções de jogos
+
+**Compare ofertas e acompanhe preços-alvo de jogos sem precisar criar uma conta.**
+
+![Status](https://img.shields.io/badge/status-MVP%20em%20validação-64748b)
+
+## Comece aqui
+
+- Pesquise pelo nome do jogo, filtre preços e descontos e compare resultados.
+- Salve jogos acompanhados e configure um preço-alvo no navegador.
+- Confira sempre preço, região, DRM e disponibilidade na loja antes de comprar.
+
+**Dados e limitações:** o protótipo consulta a API pública do CheapShark quando disponível e indica quando recorre a dados demonstrativos. Sua lista fica salva localmente no dispositivo.
+
+**Desenvolvimento:** siga os scripts do repositório e execute `npm run check` para as verificações documentadas.
+
+---
 
 Produto do **Ideias IA Lab** para descobrir promoções de jogos e acompanhar preço-alvo sem exigir conta.
 
