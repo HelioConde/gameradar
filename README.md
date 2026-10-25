@@ -1,22 +1,39 @@
-# GameRadar — Encontre promoções de jogos
+<div align="center">
+  <h1>🎮 GameRadar</h1>
+  <p><strong>Encontre promoções de jogos e acompanhe o preço que você quer pagar.</strong></p>
+  <p><img alt="Status" src="https://img.shields.io/badge/status-MVP%20em%20valida%C3%A7%C3%A3o-64748b"></p>
+</div>
 
-**Compare ofertas e acompanhe preços-alvo de jogos sem precisar criar uma conta.**
+## Como usar
 
-![Status](https://img.shields.io/badge/status-MVP%20em%20validação-64748b)
+1. Pesquise um jogo pelo nome ou explore as ofertas disponíveis.
+2. Use filtros de **preço máximo** e **desconto mínimo**.
+3. Salve jogos para acompanhar e defina um **preço-alvo**.
+4. Confira a oferta diretamente na loja antes de comprar.
 
-## Comece aqui
+| O que existe | Detalhe |
+| --- | --- |
+| **Ofertas** | Dados da API pública CheapShark quando acessível |
+| **Fallback** | Exemplos de demonstração sinalizados quando a API falha |
+| **Favoritos** | Lista e preços-alvo guardados no `localStorage` |
+| **Filtros** | Preço, desconto e opções de ordenação |
+| **Idiomas** | Português e inglês; interface responsiva |
 
-- Pesquise pelo nome do jogo, filtre preços e descontos e compare resultados.
-- Salve jogos acompanhados e configure um preço-alvo no navegador.
-- Confira sempre preço, região, DRM e disponibilidade na loja antes de comprar.
+**Importante:** preços podem mudar sem aviso. Confirme **região, edição, moeda, DRM, impostos e disponibilidade** na loja. GameRadar **não vende jogos nem realiza pagamentos**.
 
-**Dados e limitações:** o protótipo consulta a API pública do CheapShark quando disponível e indica quando recorre a dados demonstrativos. Sua lista fica salva localmente no dispositivo.
+## Executar e testar
 
-**Desenvolvimento:** siga os scripts do repositório e execute `npm run check` para as verificações documentadas.
+```bash
+git clone https://github.com/HelioConde/gameradar.git
+cd gameradar
+python -m http.server 8000
+```
+
+Abra `http://localhost:8000`. Para executar as verificações existentes: `npm install`, `npm run check` e `npm run test:e2e`.
+
+**Status:** MVP construído, mas a integração real da API e os links de ofertas precisam de verificação periódica na versão publicada.
 
 ---
-
-Produto do **Ideias IA Lab** para descobrir promoções de jogos e acompanhar preço-alvo sem exigir conta.
 
 ## Estado atual
 
